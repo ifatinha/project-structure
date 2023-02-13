@@ -1,2 +1,2 @@
-# project-structure
+# Project Structure
 My framework for web projects
