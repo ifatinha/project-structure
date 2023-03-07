@@ -1,7 +1,6 @@
 // break points
 $l-device: 1024px;
 $t-device: 768px;
-$s-device: 460px;
 
 @mixin devices($size) {
    @if($size==l) {
