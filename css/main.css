@@ -1,11 +1,10 @@
-/* Error: The default namespace "" is not a valid Sass identifier.
- * 
- * Recommendation: add an "as" clause to define an explicit namespace.
+/* Error: Undefined mixin.
  *   ,
- * 1 | @use "";
- *   | ^^^^^^^
+ * 6 | /     @include devices(l) {
+ * 7 | |         background-color: darkcyan
+ * 8 | \     }
  *   '
- *   sass\layouts\_header.scss 1:1  @use
+ *   sass\layouts\_header.scss 6:5  @use
  *   sass\layouts\_main.scss 1:1    @import
  *   sass\_main.scss 14:9           root stylesheet */
 
@@ -17,5 +16,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: The default namespace "" is not a valid Sass identifier.\a\aRecommendation: add an "as" clause to define an explicit namespace.\a   \2577 \a 1 \2502  @use "";\d\a   \2502  ^^^^^^^\a   \2575 \a   sass\\layouts\\_header.scss 1:1  @use\a   sass\\layouts\\_main.scss 1:1    @import\a   sass\\_main.scss 14:9           root stylesheet';
+  content: "Error: Undefined mixin.\a   \2577 \a 6 \2502  \250c      @include devices(l) {\a 7 \2502  \2502          background-color: darkcyan\a 8 \2502  \2514      }\a   \2575 \a   sass\\layouts\\_header.scss 6:5  @use\a   sass\\layouts\\_main.scss 1:1    @import\a   sass\\_main.scss 14:9           root stylesheet";
 }
