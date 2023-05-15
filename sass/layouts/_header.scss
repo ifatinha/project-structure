@@ -1,0 +1,9 @@
+@use "";
+
+header {
+    background-color: darkblue;
+
+    @include devices(l) {
+        background-color: darkcyan
+    }
+}
