@@ -3,7 +3,7 @@
 header {
     background-color: darkblue;
 
-    @include devices(l) {
+    @include queries.devices(l) {
         background-color: darkcyan
     }
 }

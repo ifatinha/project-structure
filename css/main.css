@@ -1,20 +1,114 @@
-/* Error: Undefined mixin.
- *   ,
- * 6 | /     @include devices(l) {
- * 7 | |         background-color: darkcyan
- * 8 | \     }
- *   '
- *   sass\layouts\_header.scss 6:5  @use
- *   sass\layouts\_main.scss 1:1    @import
- *   sass\_main.scss 14:9           root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 6 \2502  \250c      @include devices(l) {\a 7 \2502  \2502          background-color: darkcyan\a 8 \2502  \2514      }\a   \2575 \a   sass\\layouts\\_header.scss 6:5  @use\a   sass\\layouts\\_main.scss 1:1    @import\a   sass\\_main.scss 14:9           root stylesheet";
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+header {
+  background-color: darkblue;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    background-color: darkcyan;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
