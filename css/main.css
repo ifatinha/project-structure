@@ -95,16 +95,9 @@ a {
   text-decoration: none;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
-}
-
 header {
   background-color: darkblue;
 }
-
 @media screen and (min-width: 1024px) {
   header {
     background-color: darkcyan;
