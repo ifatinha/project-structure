@@ -1,20 +1,8 @@
 //base
-@import "base/main";
+@use "base/main";
 
 //util
-@import "util/main";
+@use "util/util";
 
-//global
-@import "global/main";
-
-//components
-@import "components/main";
-
-//layouts
-@import "layouts/main";
-
-//modules
-@import "modules/main";
-
-//pages
-@import "pages/main";
+//layout
+@use "layouts/layouts";

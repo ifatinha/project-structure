@@ -1,9 +1,9 @@
-@use "./../util/queries";
+@use "./../util/util";
 
 header {
     background-color: darkblue;
 
-    @include devices(l) {
+    @include util.devices(l) {
         background-color: darkcyan
     }
 }
