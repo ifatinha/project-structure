@@ -1,9 +1,6 @@
-@function rem($px) {
-    $base-font-size: 16px;
-    @return #{$px / $base-font-size}rem;
-}
+@use "sass:math";
 
-// .example {
-//     font-size: rem(24px); // Converte 24px para rem baseado no tamanho de fonte base definido na função
-//     padding  : rem(16px) rem(32px); // Converte 16px e 32px para rem
-// }
+@function px-to-rem($px) {
+    $base-font-size: 16;
+    @return math.div($px, $base-font-size)+rem;
+}
