@@ -1,9 +1,0 @@
-@use "./../util/util";
-
-header {
-    background-color: darkblue;
-
-    @include util.devices(l) {
-        background-color: darkcyan
-    }
-}
