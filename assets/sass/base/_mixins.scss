@@ -3,3 +3,11 @@
         @content
     }
 }
+
+.button {
+    border: 1px solid black;
+
+    @include hover {
+        border-width: 2px;
+    }
+}
