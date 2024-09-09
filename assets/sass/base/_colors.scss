@@ -1,8 +1,8 @@
 @use "sass:map";
 
 $theme-color:(
-    primary-color: #000000,
-    second-color: #ffffff,
+    "primary-color": #000000,
+    "second-color": #ffffff,
 );
 
 @mixin color($key) {
